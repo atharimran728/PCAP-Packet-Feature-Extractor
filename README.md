@@ -3,10 +3,10 @@
 ---
 
 ## Introduction
-In SOC operations, packet-level visibility is critical — but not always actionable.  
-Analysts and machine learning models both perform better when traffic is represented as **flows** (communication between src_ip:src_port → dst_ip:dst_port over a protocol).  
+In SOC operations, packet-level visibility is critical but not always actionable.  
+Analysts and machine learning models both perform better when traffic is represented as **flows** (communication between src_ip:src_port > dst_ip:dst_port over a protocol).  
 
-This project builds a **Python-based Packet Feature Extractor** that converts raw **PCAP** files into structured **flow-level CSV datasets**, making them suitable for behavior analysis, anomaly detection, and ML-driven intrusion detection systems.
+This project **Python-based Packet Feature Extractor** converts raw **PCAP** files into structured **flow-level CSV datasets**, making them suitable for behavior analysis, anomaly detection, and ML-driven intrusion detection systems.
 
 ---
 
